@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title></title>
+  </head>
+  <body>
+
+
+    <!--exercise 2
+
+    <div class="container">
+    <img src="" alt="">
+    <h1>hello</h1>
+    <p>green</p>
+    <div id="notification"></div>
+    <div id="">
+      <p>sonhyojoeng</p>
+    </div>
+    <div class="holder"></div>
+    <ul>
+      <li>1</li>
+      <li>2</li>
+      <li>3</li>
+    </ul>
+    </div>
+    <div id="secret">
+      <p>sssss</p>
+    </div>
+    <div id="change-me"></div>
+    <div id="everything"></div>
+  -->
+
+    <script src="https://code.jquery.com/jquery-2.1.1.js"></script>
+    <script>
+    //Ecercise_2
+    // $('body').css('background-color', 'red');
+    // $('img').attr('src','http://i.imgur.com/nWGCwiE.gif');
+    //
+    // $('h1').text('hello');
+    // $('#notification').html('<div class="alert"> Hold on! <b>an error</b> has occured!</p>');
+    // $('.container').append("<p>What's the difference between <i>.append()</i> and .html()?</p>");
+
+
+    ////Ecercise_3
+    // $('h1').css('color', 'blue');
+    // $('body').css('background-color', 'red');
+    // $('#everything').css('font-size','32px');
+    // $('.holder').css('border','1px solid blue');
+    // $('ul li').css('font-weight','bold');
+    // $('h1+p').css('color','green');
+    // $('#secret').css('display','none');
+    // $('#secret').css('display','block');
+    // $('#change-me').text('text넣기');
+    // $('#change-me').append('<br>text넣기1');
+    // $('#change-me').html('<p>문장1</p><br><p>문장2</p');
+    // $('ul li').text('이거바꿔라');
+    // $('ul li').append('<br>이거바꿔라2');
+    // $('#everything').html('<ol><li>1</li></ol>');
+
+
+    //Ecercise_4
+    //
+    var color = prompt("어떤 웹사이트를 만들고 싶으세요? red = 1 , blue = 2, pink = 3 ");
+        color = parseInt(color);
+
+    var red = 1;
+    var blue = 2;
+    var pink = 3;
+
+    var i=1;
+
+    while (true) {
+      if ( color === red || color === blue || color === pink) {
+        if (color === red) {
+          $('body').css('background-color','red');
+        } else if ( color === blue) {
+          $('body').css('background-color','blue');
+        } else {
+          $('body').css('background-color','pink');
+        }
+        break;
+      }else {
+        color = prompt("어떤 웹사이트를 만들고 싶으세요? red = 1 , blue = 2, pink = 3 ");
+        color = parseInt(color);
+      }
+
+      if(i===10) break;
+      i++;
+    }
+
+        </script>
+  </body>
+</html>

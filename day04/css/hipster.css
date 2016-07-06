@@ -1,0 +1,21 @@
+*{
+  margin: 0 auto;
+}
+
+#container{
+  width: 960px;
+  margin: 0 auto;
+}
+
+#container{
+  max-width: 960px;
+  margin: 0 auto;
+}
+
+#header{
+  position: fixed;
+  top:0;
+  left:0;
+  background-color: #ccc;
+  height: 100px;
+}

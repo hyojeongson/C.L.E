@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title></title>
+  </head>
+  <body>
+    <h1></h1>
+    <div id="source">1</div>
+    <div id="destination">2</div>
+    <div id="swap_1"></div>
+    <div id="swap_2"></div>
+
+    <div class="improtant"></div>
+    <script type="text/javascript">
+    var source = document.querySelector('#source').textContent
+    var destination = document.querySelector('#destination').textContent
+    document.querySelector('#destination').textContent = source
+    document.querySelector('#source').textContent = destination
+
+    </script>
+  </body>
+</html>

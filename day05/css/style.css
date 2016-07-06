@@ -1,0 +1,17 @@
+.col-1, .col-2, .col-3, .col-4, .col-5, .col-6, .col-7, .col-8, .col-9, .col-10, .col-11, .col-12 {
+    margin-right: 2%;
+}
+
+.col-12{
+  height: 200px;
+  background-color: #C8D897;
+}
+
+.col-4{
+  height: 420px;
+  background-color: #DBB18F;
+}
+.col-6{
+  height: 200px;
+  background-color: #F87A78;
+}

@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>form</title>
+    <link rel="stylesheet" href="css/style.css" media="screen" title="no title" charset="utf-8">
+  </head>
+  <body>
+    <h1>회 원 가 입</h1>
+    <form action="http://52.78.21.63/send/web.sonhyoj@gmail.com" method="POST">
+
+      <label for="id"> I D : </label>
+        <input type="text" id="id" name="id" placeholder="이름을 입력해주세요" size="30" autofocus=""><br>
+
+      <label for="pswd"> P W : </label>
+        <input type="password" name="pswd" id="pswd" placeholder="패스워드를 입력하세요" ><br>
+
+
+      <label for="name"> Name : </label>
+        <input type="text" id="name" name="name" placeholder="이름을 입력해주세요" size="20" autofocus=""><br>
+
+      <label for="e-mail"> E-mail</label>
+        <input type="email" id="e-mail" name="userEail" placeholder="hello@site.com"><br>
+
+      <label for=""> 남자</label>
+        <input type="radio" name="gender" value="남자" checked="">
+      <label for=""> 여자</label>
+        <input type="radio" name="gender" value="여자" >
+
+      <select name="birth" id="">
+        <optgroup label="">생년월일<br>
+            <option value="boring">1992</option>
+            <option value="cool">1991</option>
+            <option value="cool">1990</option>
+            <option value="cool">1989</option>
+            <option value="cool">1988</option>
+        </optgroup>
+      </select><br>
+
+      <textarea name="user_message" rows="8" cols="40">
+      </textarea><br>
+      <input type="submit" class="submit">
+    </form>
+  </body>
+</html>
